@@ -1,0 +1,64 @@
+h1 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    width: 90px;
+    left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza);
+    width: 90%;
+    height: 686px;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 40%);
+    border-radius: 10px;
+    left: 4%;
+
+}
+
+button {
+    color: white;
+    background-color: var(--cinza-botao);
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    margin: 5px;
+}
+
+label {
+    display: flex;
+    margin-top: 5px;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cancelar {
+    background-color: var(--branco);
+    color: var(--cinza-botao);
+    font-weight: bolder;
+}
+
+.countainer {
+    display: flex;
+    position: relative;
+    bottom: 10px;
+}
+
+botao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.esqueci {
+    color: var(--cinza-botao);
+    font-weight: unset;
+}
