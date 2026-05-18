@@ -1,0 +1,55 @@
+.fundo {
+    background-color: var(--azul);
+    width: 100%;
+    padding: 30px 50px;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.coluna {
+    max-width: 300px;
+}
+
+.colunaSobre {
+    max-width: 350px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    width: 200px;
+}
+
+.logo {
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+}
+
+.baixo {
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    flex-direction: column;
+    position: relative;
+    bottom: 120px;
+}

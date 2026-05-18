@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    background-color: var(--cinza);
+    width: 1197px;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    left: 32px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: unset;
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+}
+
+input {
+    width: 800px;
+    flex-direction: column;
+    box-shadow: inset 0 2px 1px rgb(0 0 0 / 30%);
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+label {
+    text-align: left;
+}
+
+h1 {
+    color: var(--cinza-botao);
+}
